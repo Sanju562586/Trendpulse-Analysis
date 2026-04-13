@@ -1,96 +1,101 @@
 ,post_id,title,category,score,num_comments,author,collected_at
-0,47747017,"Apple's accidental moat: How the ""AI Loser"" may end up winning",technology,39,17,walterbell,2026-04-13T09:47:58.314777
-1,47719490,I gave every train in New York an instrument,technology,233,43,joshuawolk,2026-04-13T09:47:58.316318
-2,47738883,Tell HN: Docker pull fails in Spain due to football Cloudflare block,technology,713,276,littlecranky67,2026-04-13T09:47:58.316362
-3,47738978,"We have a 99% email reputation, but Gmail disagrees",technology,195,184,em-bee,2026-04-13T09:47:58.316377
-4,47733217,Exploiting the most prominent AI agent benchmarks,technology,500,130,Anon84,2026-04-13T09:47:58.316434
-5,47741889,Show HN: Claudraband – Claude Code for the Power User,technology,100,35,halfwhey,2026-04-13T09:47:58.316468
-6,47741531,"Bouncer: Block ""crypto"", ""rage politics"", and more from your X feed using AI",technology,44,70,steveharing1,2026-04-13T09:47:58.316490
-7,47744255,I ran Gemma 4 as a local model in Codex CLI,technology,18,7,dvaughan,2026-04-13T09:47:58.316523
-8,47745120,Tech valuations are back to pre-AI boom levels,technology,125,33,akyuu,2026-04-13T09:47:58.316531
-9,47738864,Why AI Sucks at Front End,technology,74,80,tobr,2026-04-13T09:47:58.316538
-10,47743700,European AI. A playbook to own it,technology,158,96,hjouneau,2026-04-13T09:47:58.316551
-11,47743819,Basics of Radar Technology,technology,8,0,_Microft,2026-04-13T09:47:58.316575
-12,47736555,I run multiple $10K MRR companies on a $20/month tech stack,technology,841,468,tradertef,2026-04-13T09:47:58.316601
-13,47744060,Navy to use underwater drones to help clear Iranian mines from Strait of Hormuz,technology,26,7,delichon,2026-04-13T09:47:58.316690
-14,47734878,High-Level Rust: Getting 80% of the Benefits with 20% of the Pain,technology,66,81,maxloh,2026-04-13T09:47:58.316715
-15,47739305,Tell HN: OpenAI silently removed Study Mode from ChatGPT,technology,168,70,smokel,2026-04-13T09:47:58.316769
-16,47732402,The APL programming language source code (2012),technology,79,27,tosh,2026-04-13T09:47:58.316801
-17,47741544,Jim Allchin to Gates and Ballmer on the state of quality at Microsoft (2004),technology,8,4,Austin_Conlon,2026-04-13T09:47:58.316835
-18,47727960,Show HN: Pardonned.com – A searchable database of US Pardons,technology,483,262,vidluther,2026-04-13T09:47:58.316908
-19,47735405,Software Preservation Group: C++ History Collection,technology,41,3,quuxplusone,2026-04-13T09:47:58.316924
-20,47729634,Now is the best time to write code by hand,technology,107,50,nickgreg,2026-04-13T09:47:58.316977
-21,47730407,South Korea introduces universal basic mobile data access,technology,406,122,saikatsg,2026-04-13T09:47:58.317045
-22,47730194,Cirrus Labs to join OpenAI,technology,279,139,seekdeep,2026-04-13T09:47:58.317065
-23,47673171,How Complex is my Code?,technology,172,45,speckx,2026-04-13T09:47:58.317091
-24,47745714,Javier Milei's bribery scandal may have derailed Argentina's crypto investment,technology,9,0,kasperni,2026-04-13T09:47:58.317110
-25,47745261,Vegetative Patients May Be More Aware Than We Knew,worldnews,21,11,bookofjoe,2026-04-13T09:48:00.318572
-26,47745230,Sam Altman's home targeted in second attack,worldnews,95,167,babelfish,2026-04-13T09:48:00.318744
-28,47728653,"France's government is ditching Windows for Linux, says US tech a strategic risk",worldnews,489,286,pabs3,2026-04-13T09:48:00.319181
-29,47722333,"Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",worldnews,432,273,neversaydie,2026-04-13T09:48:00.319349
-30,47721946,JSON formatter Chrome plugin now closed and injecting adware,worldnews,284,135,jkl5xx,2026-04-13T09:48:00.319963
-31,47679121,Project Glasswing: Securing critical software for the AI era,worldnews,1538,834,Ryan5453,2026-04-13T09:48:00.320386
-32,47674473,Stewart Brand on how progress happens,worldnews,33,7,bookofjoe,2026-04-13T09:48:00.320477
-33,47695012,USB for Software Developers: An introduction to writing userspace USB drivers,worldnews,408,48,WerWolv,2026-04-13T09:48:00.321481
-34,47729994,Polymarket gamblers betting millions on war,worldnews,157,126,sandebert,2026-04-13T09:48:00.321634
-35,47695666,Show HN: Druids – Build your own software factory,worldnews,64,15,etherio,2026-04-13T09:48:00.321676
-36,47677853,GLM-5.1: Towards Long-Horizon Tasks,worldnews,617,262,zixuanlimit,2026-04-13T09:48:00.321735
-37,47693960,Flashback to a time when government reports were works of art,worldnews,30,12,NaOH,2026-04-13T09:48:00.322175
-38,47692043,Muse Spark: Scaling towards personal superintelligence,worldnews,392,367,chabons,2026-04-13T09:48:00.322319
-39,47718891,Supply chain nightmare: How Rust will be attacked and what we can do to mitigate,worldnews,122,72,fanf2,2026-04-13T09:48:00.323873
-40,47680124,IPv6 is the only way forward,worldnews,104,338,quaintdev,2026-04-13T09:48:00.324192
-41,47676557,Moving fast in hardware: lessons from lab to $100M ARR,worldnews,116,26,rryan,2026-04-13T09:48:00.324716
-42,47670981,"Three hundred synths, 3 hardware projects, and one app",worldnews,125,19,ductionist,2026-04-13T09:48:00.325149
-43,47722566,DOJ wants to scrap Watergate-era rule that makes presidential records public,worldnews,258,69,tlhunter,2026-04-13T09:48:00.325198
-44,47718694,"""Negative"" views of Broadcom driving VMware migrations, rival says",worldnews,76,38,breve,2026-04-13T09:48:00.325565
-45,47660954,German police name alleged leaders of GandCrab and REvil ransomware groups,worldnews,323,160,Bender,2026-04-13T09:48:00.325656
-46,47737642,Lawyer behind AI psychosis cases warns of mass casualty risks,worldnews,13,6,mentalgear,2026-04-13T09:48:00.325690
-47,47665890,War on Raze,worldnews,33,18,tosh,2026-04-13T09:48:00.325786
-48,47662945,Show HN: GovAuctions lets you browse government auctions at once,worldnews,319,90,player_piano,2026-04-13T09:48:00.326230
-49,47734106,AI Is Tipping the Scales Toward Hackers After Mythos Release,worldnews,15,7,thywis,2026-04-13T09:48:00.326330
-50,47747248,"Haunt, the 70s text adventure game, is now playable on a website",sports,12,0,jscalo,2026-04-13T09:48:02.327300
-51,47741460,Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy,sports,77,21,radeeyate,2026-04-13T09:48:02.327870
-52,47698455,Starfling: A one-tap endless orbital slingshot game in a single HTML file,sports,611,152,iceberger2001,2026-04-13T09:48:02.329071
-53,47698111,Bevy game development tutorials and in-depth resources,sports,136,54,GenericCanadian,2026-04-13T09:48:02.329570
-54,47713495,Team from ETH Zurich make high quality quantum swap gate using a geometric phase,sports,235,53,joko42,2026-04-13T09:48:02.329899
-55,47731707,"Rockstar Games Hacked, Hackers Threaten a Massive Data Leak If Not Paid Ransom",sports,109,59,c420,2026-04-13T09:48:02.330585
-57,47663743,"Show HN: Moon simulator game, ray-casting",sports,114,25,JKCalhoun,2026-04-13T09:48:02.331843
-58,47709251,Netflix Prices Went Up Again – I Bought a DVD Player Instead,sports,260,274,speckx,2026-04-13T09:48:02.332784
-59,47689550,"LLM plays an 8-bit Commander X16 game using structured ""smart senses""",sports,28,5,russellharper,2026-04-13T09:48:02.332937
-60,47689165,"Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",sports,118,36,pruz,2026-04-13T09:48:02.333007
-61,47704430,Can It Resolve Doom? Game Engine in 2k DNS Records,sports,9,2,choult,2026-04-13T09:48:02.333069
-62,47723243,Combining spicy foods with mint boosts anti-inflammatory effects 100x or more,sports,87,49,joeax,2026-04-13T09:48:02.333215
-63,47661065,"The team behind a pro-Iran, Lego-themed viral-video campaign",sports,166,265,tantalor,2026-04-13T09:48:02.333312
-64,47672778,Breaking the console: a brief history of video game security,sports,96,26,sprado,2026-04-13T09:48:02.333773
-65,47730916,QB64 Tutorial A beginner's introduction to game programming,sports,7,0,AlexeyBrin,2026-04-13T09:48:02.333834
-66,47717514,"Inflation Rose to 3.3% in March, Driven by Rising Fuel Costs",sports,63,3,JumpCrisscross,2026-04-13T09:48:02.333863
-67,47656501,The 1987 game “The Last Ninja” was 40 kilobytes,sports,309,192,keepamovin,2026-04-13T09:48:02.333898
-68,47664186,"Battle for Wesnoth: open-source, turn-based strategy game",sports,543,163,akyuu,2026-04-13T09:48:02.334053
-69,47738343,The Physics of GPS,science,124,33,maouida,2026-04-13T09:48:04.336534
-70,47745543,New metal with triple copper's heat conduction challenges fundamental physics,science,12,1,thunderbong,2026-04-13T09:48:04.336659
-72,47728323,Relics of the Heroic Age of Manned Space Flight,science,18,1,zdgeier,2026-04-13T09:48:04.337178
-73,47741449,SpaceX holds $603M in Bitcoin despite $5B loss stemming from xAI,science,24,9,lexandstuff,2026-04-13T09:48:04.337215
-75,47701769,The Bra-and-Girdle Maker That Fashioned the Impossible for NASA,science,131,19,sohkamyung,2026-04-13T09:48:04.337430
-76,47704804,How NASA built Artemis II’s fault-tolerant computer,science,630,233,speckx,2026-04-13T09:48:04.337663
-77,47708818,Native Instant Space Switching on macOS,science,637,321,PaulHoule,2026-04-13T09:48:04.337738
-79,47706141,Research-Driven Agents: When an agent reads before it codes,science,210,54,hopechong,2026-04-13T09:48:04.338603
-81,47733222,Show HN: Bitcoin and Quantum Computing – a three-part research series,science,5,1,nvk,2026-04-13T09:48:04.339108
-82,47650502,Computational Physics (2nd Edition) (2025),science,184,23,teleforce,2026-04-13T09:48:04.339578
-83,47704443,Study found that young adults have grown less hopeful and more angry about AI,science,140,184,elsewhen,2026-04-13T09:48:04.339658
-84,47651764,How Close Is Too Close? Applying Fluid Dynamics Research Methods to PC Cooling,science,29,7,LabsLucas,2026-04-13T09:48:04.339953
-86,47742200,Show HN: boringBar – a taskbar-style dock replacement for macOS,entertainment,275,165,a-ve,2026-04-13T09:48:06.340540
-87,47739174,Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card),entertainment,173,36,Rochus,2026-04-13T09:48:06.340679
-90,47741393,Textbooks and Methods of Note-Taking in Early Modern Europe (2008),entertainment,34,0,mooreds,2026-04-13T09:48:06.340834
-92,47724352,Filing the corners off my MacBooks,entertainment,1365,647,normanvalentine,2026-04-13T09:48:06.340997
-95,47733066,New synthesis of astronomical measurements shows Hubble tension is real,entertainment,73,14,anigbrowl,2026-04-13T09:48:06.341351
-97,47721997,Show HN: FluidCAD – Parametric CAD with JavaScript,entertainment,153,36,maouida,2026-04-13T09:48:06.341709
-98,47699470,The Life and Death of the Book Review,entertainment,30,7,lermontov,2026-04-13T09:48:06.341786
-99,47736071,The Universal Standard Book Number,entertainment,13,4,novalis78,2026-04-13T09:48:06.341834
-100,47730522,Show HN: Waffle – Native macOS terminal that auto-tiles sessions into a grid,entertainment,38,17,olleeolleeollee,2026-04-13T09:48:06.341909
-101,47722011,Show HN: A WYSIWYG word processor in Python,entertainment,85,37,chrisecker,2026-04-13T09:48:06.341998
-103,47721255,Show HN: Eve – Managed OpenClaw for work,entertainment,71,39,zachdive,2026-04-13T09:48:06.342091
-104,47705413,Show HN: I built a Cargo-like build tool for C/C++,entertainment,172,166,randerson_112,2026-04-13T09:48:06.342185
-106,47678844,Show HN: Marimo pair – Reactive Python notebooks as environments for agents,entertainment,139,34,manzt,2026-04-13T09:48:06.342296
-107,47702647,"Launch HN: Relvy (YC F24) – On-call runbooks, automated",entertainment,48,25,behat,2026-04-13T09:48:06.342310
-108,47702196,"Show HN: CSS Studio. Design by hand, code by agent",entertainment,171,107,SirHound,2026-04-13T09:48:06.342352
-109,47676561,Teardown of unreleased LG Rollable shows why rollable phones aren't a thing,entertainment,122,56,DamnInteresting,2026-04-13T09:48:06.342473
+0,47753689,Building a CLI for All of Cloudflare,technology,89,25,soheilpro,2026-04-13T23:06:20.488380
+1,47750872,Servo is now available on crates.io,technology,272,90,ffin,2026-04-13T23:06:20.488437
+2,47752466,MEMS Array Chip Can Project Video the Size of a Grain of Sand,technology,28,7,bookofjoe,2026-04-13T23:06:20.488485
+3,47751621,Initial mainline video capture and camera support for Rockchip RK3588,technology,39,8,mfilion,2026-04-13T23:06:20.488511
+4,47754002,Missouri town fires half its city council over data center deal,technology,53,25,impish9208,2026-04-13T23:06:20.488541
+5,47750821,Michigan 'digital age' bills pulled after privacy concerns raised,technology,144,73,iamnothere,2026-04-13T23:06:20.488571
+6,47749065,The economics of software teams: Why most engineering orgs are flying blind,technology,347,200,kiyanwang,2026-04-13T23:06:20.488587
+7,47719490,I gave every train in New York an instrument,technology,363,70,joshuawolk,2026-04-13T23:06:20.488679
+8,47744255,I ran Gemma 4 as a local model in Codex CLI,technology,195,86,dvaughan,2026-04-13T23:06:20.488689
+9,47749674,Show HN: I built a social media management tool in 3 weeks with Claude and Codex,technology,161,109,JanSchu,2026-04-13T23:06:20.488700
+10,47753643,Claude.ai down,technology,104,101,rob,2026-04-13T23:06:20.488708
+11,47738978,"We have a 99% email reputation, but Gmail disagrees",technology,334,285,em-bee,2026-04-13T23:06:20.488718
+12,47738883,Tell HN: Docker pull fails in Spain due to football Cloudflare block,technology,1072,392,littlecranky67,2026-04-13T23:06:20.488729
+13,47733217,Exploiting the most prominent AI agent benchmarks,technology,560,136,Anon84,2026-04-13T23:06:20.488739
+14,47747017,"Apple's accidental moat: How the ""AI Loser"" may end up winning",technology,362,319,walterbell,2026-04-13T23:06:20.488767
+15,47750259,Point Cloud Allemansrätten,technology,32,4,ColinWright,2026-04-13T23:06:20.488783
+16,47749222,"Caffeine, cocaine, and painkillers detected in sharks from The Bahamas",technology,64,49,LostMyLogin,2026-04-13T23:06:20.488904
+17,47753026,Categorization Is 'Baked' into the Brain,technology,6,1,XzetaU8,2026-04-13T23:06:20.488916
+18,47751032,"AI could be the end of the digital wave, not the next big thing",technology,164,229,surprisetalk,2026-04-13T23:06:20.488964
+19,47738864,Why AI Sucks at Front End,technology,100,144,tobr,2026-04-13T23:06:20.488972
+20,47743819,Basics of Radar Technology,technology,37,0,_Microft,2026-04-13T23:06:20.489006
+21,47751265,Rockstar hackers set to release GTA 6 data breach as 'demands not met',technology,14,7,01-_-,2026-04-13T23:06:20.489078
+22,47741531,"Bouncer: Block ""crypto"", ""rage politics"", and more from your X feed using AI",technology,52,99,steveharing1,2026-04-13T23:06:20.489118
+23,47741889,Show HN: Claudraband – Claude Code for the Power User,technology,114,41,halfwhey,2026-04-13T23:06:20.489157
+24,47736555,I run multiple $10K MRR companies on a $20/month tech stack,technology,912,493,tradertef,2026-04-13T23:06:20.489183
+25,47748064,The economics of software teams: Why most engineering orgs are flying blind,worldnews,347,200,kiyanwang,2026-04-13T23:06:22.490278
+26,47752301,Booking.com warns customers of hack that exposed their data,worldnews,12,2,Brajeshwar,2026-04-13T23:06:22.493511
+27,47728653,"France's government is ditching Windows for Linux, says US tech a strategic risk",worldnews,502,299,pabs3,2026-04-13T23:06:22.494042
+28,47735405,Software Preservation Group: C++ History Collection,worldnews,42,3,quuxplusone,2026-04-13T23:06:22.494078
+29,47722333,"Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",worldnews,433,274,neversaydie,2026-04-13T23:06:22.494127
+30,47745261,Vegetative Patients May Be More Aware Than We Knew,worldnews,34,13,bookofjoe,2026-04-13T23:06:22.494594
+31,47745230,Sam Altman's home targeted in second attack,worldnews,142,316,babelfish,2026-04-13T23:06:22.494713
+32,47721946,JSON formatter Chrome plugin now closed and injecting adware,worldnews,284,135,jkl5xx,2026-04-13T23:06:22.494856
+33,47695012,USB for Software Developers: An introduction to writing userspace USB drivers,worldnews,409,48,WerWolv,2026-04-13T23:06:22.495877
+34,47695666,Show HN: Druids – Build your own software factory,worldnews,64,15,etherio,2026-04-13T23:06:22.496032
+35,47692043,Muse Spark: Scaling towards personal superintelligence,worldnews,392,367,chabons,2026-04-13T23:06:22.496302
+36,47729994,Polymarket gamblers betting millions on war,worldnews,158,127,sandebert,2026-04-13T23:06:22.496319
+37,47693960,Flashback to a time when government reports were works of art,worldnews,30,12,NaOH,2026-04-13T23:06:22.496586
+38,47718891,Supply chain nightmare: How Rust will be attacked and what we can do to mitigate,worldnews,122,72,fanf2,2026-04-13T23:06:22.496651
+39,47722566,DOJ wants to scrap Watergate-era rule that makes presidential records public,worldnews,261,69,tlhunter,2026-04-13T23:06:22.497012
+40,47718694,"""Negative"" views of Broadcom driving VMware migrations, rival says",worldnews,76,39,breve,2026-04-13T23:06:22.497171
+41,47711623,Mexico's President Sheinbaum Decrees Universal Healthcare for 120M,worldnews,61,32,testing22321,2026-04-13T23:06:22.497937
+42,47727974,"Tesla's supervised self-driving software gets Dutch okay, first in Europe",worldnews,38,19,nsoonhui,2026-04-13T23:06:22.498071
+43,47734106,AI Is Tipping the Scales Toward Hackers After Mythos Release,worldnews,15,7,thywis,2026-04-13T23:06:22.498234
+44,47737642,Lawyer behind AI psychosis cases warns of mass casualty risks,worldnews,13,6,mentalgear,2026-04-13T23:06:22.498247
+45,47725942,Warez Scene,worldnews,25,7,maltalex,2026-04-13T23:06:22.498319
+46,47723539,Molotov cocktail attack at OpenAI CEO Sam Altman's home,worldnews,18,1,helloplanets,2026-04-13T23:06:22.498381
+47,47695647,The AI Great Leap Forward,worldnews,135,67,jodah,2026-04-13T23:06:22.498396
+48,47731064,Valve Developer Improves the Linux Gaming Experience for Limited VRAM Hardware,worldnews,13,0,bpierre,2026-04-13T23:06:22.498407
+49,47729195,Tesla's cabin camera estimates driver age in latest software update,worldnews,13,4,voisin,2026-04-13T23:06:22.498431
+50,47753472,Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets,sports,149,42,m-hodges,2026-04-13T23:06:24.499189
+52,47741460,How long-distance couples use digital games to facilitate intimacy (2025),sports,120,37,radeeyate,2026-04-13T23:06:24.499724
+53,47749295,Show HN: Equirect – a Rust VR video player,sports,7,1,greggman65,2026-04-13T23:06:24.499899
+54,47747248,"Haunt, the 70s text adventure game, is now playable on a website",sports,77,22,jscalo,2026-04-13T23:06:24.499996
+55,47698455,Starfling: A one-tap endless orbital slingshot game in a single HTML file,sports,620,152,iceberger2001,2026-04-13T23:06:24.500241
+56,47698111,Bevy game development tutorials and in-depth resources,sports,137,62,GenericCanadian,2026-04-13T23:06:24.500428
+57,47713495,Team from ETH Zurich make high quality quantum swap gate using a geometric phase,sports,237,55,joko42,2026-04-13T23:06:24.500545
+58,47747625,Code Review Is the New Bottleneck for Engineering Teams,sports,13,1,gpi,2026-04-13T23:06:24.501159
+59,47731707,"Rockstar Games Hacked, Hackers Threaten a Massive Data Leak If Not Paid Ransom",sports,109,61,c420,2026-04-13T23:06:24.501408
+61,47689165,"Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",sports,118,36,pruz,2026-04-13T23:06:24.502013
+62,47709251,Netflix Prices Went Up Again – I Bought a DVD Player Instead,sports,262,278,speckx,2026-04-13T23:06:24.502058
+63,47689550,"LLM plays an 8-bit Commander X16 game using structured ""smart senses""",sports,28,6,russellharper,2026-04-13T23:06:24.502121
+64,47704430,Can It Resolve Doom? Game Engine in 2k DNS Records,sports,10,2,choult,2026-04-13T23:06:24.502151
+65,47723243,Combining spicy foods with mint boosts anti-inflammatory effects 100x or more,sports,87,49,joeax,2026-04-13T23:06:24.502319
+66,47717514,"Inflation Rose to 3.3% in March, Driven by Rising Fuel Costs",sports,63,3,JumpCrisscross,2026-04-13T23:06:24.502608
+67,47730916,QB64 Tutorial A beginner's introduction to game programming,sports,7,0,AlexeyBrin,2026-04-13T23:06:24.502857
+69,47717565,"Show HN: Steadcast – Free Mac podcast player for learning, not background noise",sports,7,1,steadcast,2026-04-13T23:06:24.503297
+70,47723499,Beyond Copy-and-Paste: How Game Studios Are Reorganizing Around AI (Research),sports,5,0,pella,2026-04-13T23:06:24.503505
+71,47733776,"Amazon Luna Will No Longer Allow Owners to Buy Games, Access Game Stores",sports,15,2,surgical_fire,2026-04-13T23:06:24.503617
+72,47747740,"No Degree, $155K Pay: Trump's FAA Is Recruiting Gamers as Air Traffic Controller",sports,10,3,onemoresoop,2026-04-13T23:06:24.503706
+73,47738343,The Physics of GPS,science,150,34,maouida,2026-04-13T23:06:26.505223
+75,47745543,New metal with triple copper's heat conduction challenges fundamental physics,science,29,11,thunderbong,2026-04-13T23:06:26.505908
+76,47739305,Tell HN: OpenAI silently removed Study Mode from ChatGPT,science,171,74,smokel,2026-04-13T23:06:26.505970
+77,47701769,The Bra-and-Girdle Maker That Fashioned the Impossible for NASA,science,133,19,sohkamyung,2026-04-13T23:06:26.505986
+78,47704804,How NASA built Artemis II’s fault-tolerant computer,science,634,234,speckx,2026-04-13T23:06:26.506111
+79,47728323,Relics of the Heroic Age of Manned Space Flight,science,20,1,zdgeier,2026-04-13T23:06:26.506135
+80,47708818,Native Instant Space Switching on macOS,science,640,324,PaulHoule,2026-04-13T23:06:26.506297
+81,47741449,SpaceX holds $603M in Bitcoin despite $5B loss stemming from xAI,science,26,9,lexandstuff,2026-04-13T23:06:26.506572
+83,47706141,Research-Driven Agents: When an agent reads before it codes,science,211,54,hopechong,2026-04-13T23:06:26.508806
+84,47733222,Show HN: Bitcoin and Quantum Computing – a three-part research series,science,6,1,nvk,2026-04-13T23:06:26.509723
+85,47704443,Study found that young adults have grown less hopeful and more angry about AI,science,141,184,elsewhen,2026-04-13T23:06:26.509748
+86,47741514,The space science behind 'Project Hail Mary',science,6,0,Brajeshwar,2026-04-13T23:06:26.510236
+87,47729727,"Researchers used AI to analyze 400k Reddit posts, revealing GLP-1 side effects",science,25,2,giuliomagnifico,2026-04-13T23:06:26.510606
+89,47742200,Show HN: boringBar – a taskbar-style dock replacement for macOS,entertainment,462,263,a-ve,2026-04-13T23:06:28.512299
+91,47739174,Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card),entertainment,226,76,Rochus,2026-04-13T23:06:28.512439
+93,47741393,Textbooks and Methods of Note-Taking in Early Modern Europe (2008),entertainment,48,0,mooreds,2026-04-13T23:06:28.512714
+95,47724352,Filing the corners off my MacBooks,entertainment,1382,658,normanvalentine,2026-04-13T23:06:28.512833
+98,47743700,European AI. A playbook to own it,entertainment,194,127,hjouneau,2026-04-13T23:06:28.513043
+99,47727960,Show HN: Pardonned.com – A searchable database of US Pardons,entertainment,493,267,vidluther,2026-04-13T23:06:28.513067
+103,47733066,New synthesis of astronomical measurements shows Hubble tension is real,entertainment,74,14,anigbrowl,2026-04-13T23:06:28.513440
+104,47745300,Show HN: A social feed with no strangers,entertainment,8,5,rpatni,2026-04-13T23:06:28.513524
+105,47721997,Show HN: FluidCAD – Parametric CAD with JavaScript,entertainment,155,37,maouida,2026-04-13T23:06:28.513662
+106,47699470,The Life and Death of the Book Review,entertainment,30,7,lermontov,2026-04-13T23:06:28.514051
+107,47722011,Show HN: A WYSIWYG word processor in Python,entertainment,87,39,chrisecker,2026-04-13T23:06:28.514108
+108,47705413,Show HN: I built a Cargo-like build tool for C/C++,entertainment,174,166,randerson_112,2026-04-13T23:06:28.514169
+109,47721255,Show HN: Eve – Managed OpenClaw for work,entertainment,71,39,zachdive,2026-04-13T23:06:28.514186
+110,47730522,Show HN: Waffle – Native macOS terminal that auto-tiles sessions into a grid,entertainment,38,20,olleeolleeollee,2026-04-13T23:06:28.514244
+111,47702647,"Launch HN: Relvy (YC F24) – On-call runbooks, automated",entertainment,48,25,behat,2026-04-13T23:06:28.514298
+112,47702196,"Show HN: CSS Studio. Design by hand, code by agent",entertainment,171,107,SirHound,2026-04-13T23:06:28.514322
+113,47736071,The Universal Standard Book Number,entertainment,13,4,novalis78,2026-04-13T23:06:28.514337
