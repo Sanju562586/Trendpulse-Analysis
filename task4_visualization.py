@@ -1,11 +1,15 @@
+# Imports all the necessary python packages
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import os
 
+# Filename to import the analyzed stories from the previous task
 filename = "data/trends_analyzed.csv"
 
+# Python function to setup the environment and load the data
 def setup(filename):
+    # Loads the data from the CSV file into a pandas DataFrame
     df = pd.read_csv(filename)
     print(df.head())
 
