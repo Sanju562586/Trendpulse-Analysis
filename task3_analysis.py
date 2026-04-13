@@ -77,16 +77,3 @@ if __name__ == "__main__":
     main()
 
 
-
-"""--- NumPy Stats ---
-Mean score   : 12,450
-Median score : 8,200
-Std deviation: 9,870
-Max score    : 87,432
-Min score    : 5
-
-Most stories in: technology (22 stories)
-
-Most commented story: "AI model beats humans at coding"  — 4,891 comments
-
-Saved to data/trends_analysed.csv"""
