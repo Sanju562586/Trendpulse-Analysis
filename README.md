@@ -12,6 +12,7 @@ The project pipeline is divided into four distinct stages, sequentially executed
 - Categorizes stories into one of five predefined categories (Technology, Worldnews, Sports, Science, Entertainment) by identifying specific keywords hidden within story titles.
 - Limits the collection to a maximum of 25 stories per category to maintain quota distribution.
 - Exports the gathered information into a JSON file stored in the `data/` folder, stamped with the current date (e.g., `trends_YYYYMMDD.json`).
+![alt text](image.png)
 
 ### 2. Data Preprocessing (`task2_data_preprocessing.py`)
 - Loads the raw JSON file generated in Task 1 into a `pandas` DataFrame.
@@ -22,6 +23,7 @@ The project pipeline is divided into four distinct stages, sequentially executed
   - Filters out overall underperforming stories (keeping only those with a minimum base score of 5).
   - Trims any lingering whitespace characters from categorical strings.
 - Saves the clean, processed dataframe output to `data/trends_clean.csv`.
+![alt text](image-1.png)
 
 ### 3. Data Analysis (`task3_analysis.py`)
 - Reads the cleaned CSV dataset and applies fundamental calculations utilizing `numpy` and `pandas`.
@@ -31,6 +33,7 @@ The project pipeline is divided into four distinct stages, sequentially executed
   - **`engagement`**: Derived logic showcasing the ratio of comments against the story's score.
   - **`is_popular`**: A boolean flag emphasizing if the story surpasses the calculated average score line.
 - Outputs the augmented, detailed dataset for final render processing. 
+![alt text](image-2.png)
 
 ### 4. Data Visualization (`task4_visualization.py`)
 - Uses `matplotlib` and `seaborn` to import the analyzed `.csv` output files and transform raw numbers into comprehensible visual stories.
@@ -40,6 +43,11 @@ The project pipeline is divided into four distinct stages, sequentially executed
   - A multi-colored Scatter Plot mapping "Score versus Comments", utilizing hue layers to easily expose popular/not-popular patterns.
   - A holistic Subplot Dashboard merging all visualizations simultaneously onto one canvas surface.
 - Automatically saves all created PNG visual assets strictly to the `outputs/` root directory.
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 
 ## Installation and Usage
 
