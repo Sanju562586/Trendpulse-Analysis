@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Filename to import the analyzed stories from the previous task
-filename = "data/trends_analyzed.csv"
+filename = "data/trends_updated.csv"
 
 # Python function to setup the environment and load the data
 def setup(filename):

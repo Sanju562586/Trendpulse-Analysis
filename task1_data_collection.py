@@ -1,8 +1,8 @@
 import requests
 import time
 import json
-import os
-from datetime import datetime
+import datetime
+import sqlite3
 
 # Base URL
 BASE_URL = "https://hacker-news.firebaseio.com/v0"
@@ -32,10 +32,11 @@ def fetch_ids_of_top_stories():
        # If failed, then jumps to except block to handle it gracefully
        # Else parse JSON
        response.raise_for_status()
-       return response.json()[:500]
+       return response.json()[:1500]
     # If any run-time error(Exception more formally) arises, then it would be gracefully handled by the except block
     # then this block returns whatever we managed to fetch
-    except:
+    except Exception as e:
+        print(f"An exception occured: {e}")
         return []
     
 
@@ -85,6 +86,7 @@ def categorization(title):
     # If the title doesn't match any keyword, then Nothing is returned, and it is categorized under nothing
     return matched
 
+
 def collect_stories(story_ids):
     # A dictionary with all categories as keys with all the values initialized to 0 to keep track of the number of stories per category
     category_counts = {cat : [] for cat in CATEGORIES.keys()}
@@ -132,7 +134,7 @@ def collect_stories(story_ids):
                     "score": story.get("score", 0),
                     "num_comments": story.get("descendants", 0),
                     "author": story.get("by", ""),
-                    "collected_at": datetime.now().isoformat(),
+                    "collected_at": datetime.datetime.now().isoformat(),
                 })
         
         # Finally we print the number of stories collected for each category
@@ -147,21 +149,35 @@ def collect_stories(story_ids):
 
 
 # A python function to save the collected stories in a JSON file
-def save_stories(stories):
+def save_to_db(filename, stories):
+    conn = sqlite3.connect(filename)
+    cur = conn.cursor()
 
-    # Checks if a folder named data is already present of not
-    if not os.path.exists("data"):
-        # If not, then it creates a folder named data
-        os.makedirs("data")
+    query = "CREATE TABLE IF NOT EXISTS stories (post_id INTEGER, title TEXT, category TEXT, score INTEGER, num_comments INTEGER, author TEXT, collected_at DATETIME)"
 
-    # filname to store the collected stories in JSON format
-    filename = f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
+    cur.execute(query)
 
-    # Opening the file in write mode. This enables to overwrite the existing file contents if any
-    with open(filename, "w") as f:
-        # Dumping the list of collected stories into the file in JSON format with an indentation of 4 spaces for better readability
-        json.dump(stories, f, indent=4)
-    return filename
+    for story in stories:
+        cur.execute("""
+            INSERT INTO stories 
+            (post_id, title, category, score, num_comments, author, collected_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (
+            story.get("post_id"), 
+            story.get("title"),
+            story.get("category"),
+            story.get("score", 0),
+            story.get("num_comments", 0),
+            story.get("author", ""),
+            datetime.datetime.fromisoformat(story.get("collected_at")).strftime("%Y-%m-%d %H:%M:%S")
+        ))
+
+    conn.commit()
+
+    cur.close()
+
+    print(f"Saved to database named {filename}")
+
 
 
 # Main function. Handles everything
@@ -180,10 +196,11 @@ def main():
     stories = collect_stories(story_ids)
         
     # This method saved the all the extracted stories in a JSON file and gets the filename where the stories are saved
-    filename = save_stories(stories)
+    file = "stories.db"
+    save_to_db(file, stories)
 
     # Prints the total number of stories collected and saved into the JSON file.
-    print(f"Collected {len(stories)} stories. Saved to the file {filename}")
+    print(f"Collected {len(stories)} stories. Saved to the {file}")
 
 # The main function is called to execute the entire process
 if __name__ == "__main__":

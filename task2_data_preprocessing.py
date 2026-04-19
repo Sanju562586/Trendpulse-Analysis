@@ -2,6 +2,7 @@
 import json
 import pandas as pd
 import os
+import sqlite3
 
 # Filename to import the collected stories from the previous task.
 filename = r"data\trends_20260413.json"
@@ -9,17 +10,15 @@ filename = r"data\trends_20260413.json"
 # Python function to load the collected stories from the JSON file.
 def load_stories(filename):
         
-    # Opening the file in read mode and loading the data from the file using built-in json.load() method.
-    with open(filename, "r") as f:
-        # Data is loaded from the file and stored in the variable 'data'
-        data = json.load(f)
+    conn = sqlite3.connect("stories.db")
+    cur = conn.cursor()
 
-    # JSON data is conveted into pandas DataFrame for easier manipulation and analysis
+    query = "SELECT * FROM STORIES"
+    data = pd.read_sql_query(query, conn)
+
+    conn.close()
+    
     df = pd.DataFrame(data)
-    # Prints the total number of stories loaded from the JSON file
-    print(f"Loaded {len(df)} stories from {filename}")
-    print()
-
     # Returns the dataframe
     return df
 
